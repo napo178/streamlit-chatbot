@@ -5,27 +5,26 @@ from pyjokes import get_joke
 
 pairs = [
     
-         ['my name is (.*)', ['Hi! Hello %1 Sir. I am JARVIS. How may i Help You?']],
-         ['hi', ['Hi Hello I am your JARVIS. How can I Help you?????']],
-         ['What can you Do', ['Yes Sir, I can Do many Tasks.']],
+         ['hi', ['Hola soy un chatbot en que te puedo ayudar']],
+         ['Has tenido un problema con tu orden', ['Yes Sir, I can Do many Tasks.']],
         #  ['open (.*)', ['Sorry Sir, I cant open %1 .I am still a Chatbot. I cant automate things.', webbrowser.open('%1')]],
          ['do you think there is a creator', ['Yes, According to me there is creator of all this because even I have been created by Abdul Rehman']],
-         ['about you', ['I am a ChatBot created by Prof Abdul Rehman']],
-         ['Who am i', ['please try typing "my name is --"']],
-         ['(Tell me a joke|Joke|joke|tell me jokes)', ['Hehe Do you know its Saturday Today, Elephant has two Teeths, We humans have Four legs']],
-         ['Abd JOke', [get_joke(language='en', category='neutral') ]],
-         ['Who created you?', ['Abdul Rehman has created me.']],
+         ['acerca de ti', ['Soy un ChatBot created by Napoleon to Hugo']],
+    
+         ['Quien te creo?', ['Napoleon Perez has created me.']],
+         ['Que es Hugo', ['Mi delivery app Favorita']]
+
             
-]
+]  
 
 
 st.title("Rule based Chatbot")
-st.subheader("This is a Rule based Chatbot made using NlTK and Python by Abdul Rehman ")
+st.subheader("This is a Rule based Chatbot demo ")
 
 
 def main():
-    st.write("Initialize the Chat bot By Typing Hi ")
-    ref = st.text_input("Start your chat here")
+    st.write("El Bot inicia diciendo Hi ")
+    ref = st.text_input("Comience su chat")
 
     # a = st.text_input("Initialize your Conversation By Typing Hi")
     # chat.converse()

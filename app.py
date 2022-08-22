@@ -10,7 +10,6 @@ pairs = [
     
          ['hi', ['I am a chatbot made by Napoleon Perez']],
          ['Is everytthing ok', ['Yes Sir, I can Do many Tasks.']],
-         ['do you think there is a creator', ['Yes, According to me there is creator of all this because even I have been created by Abdul Rehman']],
          ['about you', ['Soy un ChatBot created by Napoleon to Hugo']],
          ['Your creator?', ['Napoleon Perez has created me.']],
          ['You are arrogant', ['Arrogance is not one of my emotions']] ,       

@@ -13,16 +13,16 @@ pairs = [
          ['do you think there is a creator', ['Yes, According to me there is creator of all this because even I have been created by Abdul Rehman']],
          ['about you', ['Soy un ChatBot created by Napoleon to Hugo']],
          ['Your creator?', ['Napoleon Perez has created me.']],
-         ['You are arrogant', ['Arrogance is not one of my emotions']]        
-         ['Favorite_Food', ['Pizza']] 
-         ['Favorite_Color', ['Red']]
-         ['Favorite_Movie', ['The Godfather']]
-         ['Favorite_Song', ['The One Who Knows']]
-         ['Favorite_Book', ['The Alchemist']]
-         ['Favorite_Game', ['The Witcher']]
-         ['Favorite_Game', ['Chess']]
-         ['Machine Learning', ['The best subject in the world']]
-         ['Artificial Intelligence', ['The best subject in the world']]
+         ['You are arrogant', ['Arrogance is not one of my emotions']] ,       
+         ['Favorite_Food', ['Pizza']] ,
+         ['Favorite_Color', ['Red']],
+         ['Favorite_Movie', ['The Godfather']],
+         ['Favorite_Song', ['The One Who Knows']],
+         ['Favorite_Book', ['The Alchemist']],
+         ['Favorite_Game', ['The Witcher']],
+         ['Favorite_Game', ['Chess']],
+         ['Machine Learning', ['The best subject in the world']],
+         ['Artificial Intelligence', ['The best subject in the world']],
          ['Deep Learning', ['The best subject in the world']]
         
 

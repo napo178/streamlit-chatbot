@@ -2,21 +2,31 @@ import streamlit as st
 from nltk.chat.util import Chat, reflections
 from pyjokes import get_joke
 
+st.title('Demo_chatbot')
+st.title('Created by Napoleon Perez')
+
 
 pairs = [
     
-         ['hi', ['Hola soy un chatbot en que te puedo ayudar']],
-         ['Has tenido un problema con tu orden', ['Yes Sir, I can Do many Tasks.']],
-        #  ['open (.*)', ['Sorry Sir, I cant open %1 .I am still a Chatbot. I cant automate things.', webbrowser.open('%1')]],
+         ['hi', ['I am a chatbot made by Napoleon Perez']],
+         ['Is everytthing ok', ['Yes Sir, I can Do many Tasks.']],
          ['do you think there is a creator', ['Yes, According to me there is creator of all this because even I have been created by Abdul Rehman']],
-         ['acerca de ti', ['Soy un ChatBot created by Napoleon to Hugo']],
-    
-         ['Quien te creo?', ['Napoleon Perez has created me.']],
-         ['Que es Hugo', ['Mi delivery app Favorita']]
+         ['about you', ['Soy un ChatBot created by Napoleon to Hugo']],
+         ['Your creator?', ['Napoleon Perez has created me.']],
+         ['You are arrogant', ['Arrogance is not one of my emotions']]        
+        ['Favorite_Food', ['Pizza']] 
+        ['Favorite_Color', ['Red']]
+        ['Favorite_Movie', ['The Godfather']]
+        ['Favorite_Song', ['The One Who Knows']]
+        ['Favorite_Book', ['The Alchemist']]
+        ['Favorite_Game', ['The Witcher']]
+        ['Favorite_Game', ['Chess']]
+        ['Machine Learning', ['The best subject in the world']]
+        ['Artificial Intelligence', ['The best subject in the world']]
+        ['Deep Learning', ['The best subject in the world']]
+        
 
-            
-]  
-
+     ]
 
 st.title("Rule based Chatbot")
 st.subheader("This is a Rule based Chatbot demo ")

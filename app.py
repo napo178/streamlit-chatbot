@@ -33,8 +33,8 @@ st.subheader("This is a Rule based Chatbot demo ")
 
 
 def main():
-    st.write("El Bot inicia diciendo Hi ")
-    ref = st.text_input("Comience su chat")
+    st.write("The Bot is code to answer your questions")
+    ref = st.text_input("Start the chat")
 
     # a = st.text_input("Initialize your Conversation By Typing Hi")
     # chat.converse()
